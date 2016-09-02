@@ -45,22 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\02.Scripts\BarrelCtrl.cs" />
+     <Compile Include="Assets\02.Scripts\BulletCtrl.cs" />
+     <Compile Include="Assets\02.Scripts\FireCtrl.cs" />
+     <Compile Include="Assets\02.Scripts\GameMgr.cs" />
+     <Compile Include="Assets\02.Scripts\MonsterCtrl.cs" />
+     <Compile Include="Assets\02.Scripts\MyGizmos.cs" />
      <Compile Include="Assets\02.Scripts\PlayerCtrl.cs" />
-     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
-     <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
-     <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
-     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
-     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
-     <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
-     <Compile Include="Assets\SkySphere_V1\Examples\Gui.cs" />
-     <Compile Include="Assets\SkySphere_V1\Examples\MouseLook.cs" />
-     <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
-     <None Include="Assets\SkySphere_V1\Documentation\How to use.txt" />
+     <Compile Include="Assets\02.Scripts\RemoveBullet.cs" />
+     <Compile Include="Assets\02.Scripts\UIMgr.cs" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\RainMaker\Readme.txt" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

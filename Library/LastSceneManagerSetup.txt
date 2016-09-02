@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/01.Scenes/Play.unity
+- path: Assets/01.Scenes/Play_Backup.unity
   isLoaded: 1
   isActive: 1
